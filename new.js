@@ -1,6 +1,7 @@
-let item1 = 5;
-let item2 = 11;
+let item1;
+item1 = 5;
+let item2;
+item2 = 3;
 
-let result = item1 + item2
-
-console.log("Result =" , result) 
+console.log(item1) 
+console.log(item2) 
