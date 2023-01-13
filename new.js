@@ -25,9 +25,9 @@ item6 = 15;
 item_6_type = typeof(item6);
 console.log('item6 == ' + item6, 'item_6_type == ' + item_6_type)
 
-let item7 
-item7 = String(item6);
-let item_7_type = typeof(item7);
+let item7 = String(item6);
+let item_7_type;
+item_7_type = typeof(item7);
 console.log('item7 == '+item7, 'item_7_type == '+item_7_type)
 
 let age_1 = 10;
